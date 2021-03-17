@@ -17,7 +17,7 @@ export const getServerSideProps: GetServerSideProps<State> = async ({
   return {
     props: {
       title: 'title',
-      ...lng
+      ...lng,
     },
   }
 }
